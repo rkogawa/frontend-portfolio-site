@@ -4,8 +4,16 @@
 }
 
 .main-image {
-    width: 741px;
-    height: 227px;
+    width: 333px;
+    height: 101px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-image {
+    width: 333px;
+    height: 180px;
 }
 
 .work-image {
@@ -37,6 +45,19 @@
     .featured-work-title {
         text-align: center;
     }
+}
+
+@media screen and (min-width: 750px) {
+    .main-image {
+        width: 684px;
+        height: 210px;
+    }
+
+    .work-image {
+        width: 370px;
+        height: 200px;
+    }
+
 }
 
 @media screen and (min-width: 1150px) {
